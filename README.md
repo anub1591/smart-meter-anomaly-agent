@@ -1,5 +1,4 @@
-# smart-meter-anomaly-agent 
-⚡ AI Pipeline Monitor Agent
+# smart-meter-anomaly-agent ⚡ AI Pipeline Monitor Agent
 
 An autonomous AI agent that investigates smart meter electricity data, reasons step-by-step about anomalies, and validates its own findings against labeled ground truth — built with Claude's tool-use (function-calling) API.
 
