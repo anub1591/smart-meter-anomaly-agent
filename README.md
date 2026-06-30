@@ -1,7 +1,5 @@
-# smart-meter-anomaly-agent
-AI agent that autonomously detects anomalies in smart meter electricity data using Claude's tool-use API — validated against ground-truth labels (72% accuracy)
-
-# ⚡ AI Pipeline Monitor Agent
+# smart-meter-anomaly-agent 
+⚡ AI Pipeline Monitor Agent
 
 An autonomous AI agent that investigates smart meter electricity data, reasons step-by-step about anomalies, and validates its own findings against labeled ground truth — built with Claude's tool-use (function-calling) API.
 
@@ -67,29 +65,6 @@ requirements.txt     # Python dependencies
 smart_meter_data.csv # Dataset (Kaggle: Smart Meter Electricity Consumption)
 reasoning_log.txt    # Saved reasoning log powering the cached demo
 evaluation_results.csv # Full row-by-row evaluation results
-```
-
-## Running locally
-
-```bash
-git clone https://github.com/anub1591/smart-meter-anomaly-agent.git
-cd smart-meter-anomaly-agent
-pip install -r requirements.txt
-```
-
-Create a `.env` file with your own Anthropic API key:
-```
-ANTHROPIC_API_KEY=your-key-here
-```
-
-Run the Streamlit app:
-```bash
-streamlit run app.py
-```
-
-Or run the agent directly from the command line:
-```bash
-python agent.py
 ```
 
 ## Cost controls
